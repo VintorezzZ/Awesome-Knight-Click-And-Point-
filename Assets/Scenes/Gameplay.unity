@@ -123,23 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &188225905 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2219986850907340070, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
-  m_PrefabInstance: {fileID: 2219986851025298519}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &188225906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188225905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e69cca47bf65244f9e06a68e33bb46e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &527613192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -302,6 +285,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -388,6 +372,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   follow_Height: 8
   follow_Distance: 6
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04330bb8101d6548bd08f56bf8f5776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: d6e49423b8b32f74088d1c6b5f42b9d7, type: 3}
 --- !u!1001 &1704636134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -460,6 +457,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 66635543, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
+      propertyPath: ShapeModule.angle
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 66635543, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2219986850906972486, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -508,9 +513,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Knight
       objectReference: {fileID: 0}
-    - target: {fileID: 2219986850914750110, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 9f445b1997092a24a8c682ce5ee610f4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
