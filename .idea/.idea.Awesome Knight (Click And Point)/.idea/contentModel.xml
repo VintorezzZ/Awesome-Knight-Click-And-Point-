@@ -10,6 +10,7 @@
             <e p="MouseScript.cs" t="Include" />
           </e>
           <e p="EnemyScripts" t="Include">
+            <e p="EnemyAttackScript.cs" t="Include" />
             <e p="EnemyController.cs" t="Include" />
             <e p="EnemyHealth.cs" t="Include" />
           </e>

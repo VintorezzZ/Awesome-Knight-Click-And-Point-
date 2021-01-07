@@ -49,6 +49,7 @@ public class EnemyController : MonoBehaviour
     private Vector3 whereTo_Navigate;
     
     //HEALTH SCRIPT
+    private EnemyHealth _enemyHealth;
 
     private void Awake()
     {
@@ -59,11 +60,17 @@ public class EnemyController : MonoBehaviour
 
         initialPosition = transform.position;
         whereTo_Navigate = transform.position;
+
+        _enemyHealth = GetComponent<EnemyHealth>();
     }
     
     void Update()
     {
         // IF HEALTH IS <= 0 WE WILL SET STATE TO DEATH
+        if (_enemyHealth.health <= 0f)
+        {
+            enemy_CurrentState = EnemyState.DEATH;
+        }
 
         if (enemy_CurrentState != EnemyState.DEATH)
         {

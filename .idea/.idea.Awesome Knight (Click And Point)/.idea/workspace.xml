@@ -13,6 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX Scripts/DestroyPointer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX Scripts/DestroyAfterTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerAttackEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX Scripts/FireTornadoMove.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,20 +26,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Camera Scripts/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/DestroyPointer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera Scripts/MouseScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerAttackEffects.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/DestroyAfterTime.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/SkillDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/FireTornadoMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerHealthScripts.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/FireShield.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera Scripts/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/DestroyPointer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/HealScript.cs" />
       </list>
     </option>
@@ -84,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609930823861</updated>
       <workItem from="1609930828301" duration="7790000" />
-      <workItem from="1610011311635" duration="18941000" />
+      <workItem from="1610011311635" duration="22688000" />
     </task>
     <servers />
   </component>

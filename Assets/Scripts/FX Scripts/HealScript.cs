@@ -7,6 +7,6 @@ public class HealScript : MonoBehaviour
     public float healAmount = 20f;
     void Start()
     {
-        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().health += healAmount;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().HealPlayer(healAmount);
     }
 }

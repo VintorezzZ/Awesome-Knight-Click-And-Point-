@@ -22,6 +22,9 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!player)
+            return;
+        
         target_Height = player.position.y + follow_Height;
 
         current_Rotation = transform.eulerAngles.y;
