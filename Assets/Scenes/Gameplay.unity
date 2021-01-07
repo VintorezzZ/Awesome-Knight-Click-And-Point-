@@ -3154,6 +3154,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 867271746, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2219986850906972486, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3202,5 +3206,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Knight
       objectReference: {fileID: 0}
+    - target: {fileID: 7103160225485456348, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
+      propertyPath: fillImage_1
+      value: 
+      objectReference: {fileID: 201166779}
+    - target: {fileID: 7103160225485456348, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
+      propertyPath: fillImage_2
+      value: 
+      objectReference: {fileID: 806738487}
+    - target: {fileID: 7103160225485456348, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
+      propertyPath: fillImage_3
+      value: 
+      objectReference: {fileID: 1776783060}
+    - target: {fileID: 7103160225485456348, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
+      propertyPath: fillImage_4
+      value: 
+      objectReference: {fileID: 1181942605}
+    - target: {fileID: 7103160225485456348, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
+      propertyPath: fillImage_5
+      value: 
+      objectReference: {fileID: 504180347}
+    - target: {fileID: 7103160225485456348, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}
+      propertyPath: fillImage_6
+      value: 
+      objectReference: {fileID: 135971464}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a6181032b4a6f04db4678608e5cab73, type: 3}

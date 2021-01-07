@@ -7,8 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX Scripts/DestroyPointer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX Scripts/DestroyAfterTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerAttackEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -18,6 +23,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/DestroyPointer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera Scripts/MouseScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerAttackEffects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/DestroyAfterTime.cs" />
       </list>
     </option>
   </component>
@@ -61,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609930823861</updated>
-      <workItem from="1609930828301" duration="7777000" />
+      <workItem from="1609930828301" duration="7790000" />
+      <workItem from="1610011311635" duration="7779000" />
     </task>
     <servers />
   </component>
