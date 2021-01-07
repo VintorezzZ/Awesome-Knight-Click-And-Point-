@@ -11,10 +11,12 @@
           </e>
           <e p="EnemyScripts" t="Include">
             <e p="EnemyController.cs" t="Include" />
+            <e p="EnemyHealth.cs" t="Include" />
           </e>
           <e p="FX Scripts" t="Include">
             <e p="DestroyAfterTime.cs" t="Include" />
             <e p="DestroyPointer.cs" t="Include" />
+            <e p="SkillDamage.cs" t="Include" />
           </e>
           <e p="Player Scripts" t="Include">
             <e p="PlayerAttack.cs" t="Include" />
