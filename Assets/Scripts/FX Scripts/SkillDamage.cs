@@ -10,7 +10,7 @@ public class SkillDamage : MonoBehaviour
     public float damageCount = 10f;
 
     private EnemyHealth _enemyHealth;
-    private bool colided;
+    private bool collided;
 
     private void Awake()
     {
@@ -28,10 +28,10 @@ public class SkillDamage : MonoBehaviour
                 continue; // don't need to detect that
             
             _enemyHealth = collider.gameObject.GetComponent<EnemyHealth>();
-            colided = true;
+            collided = true;
         }
 
-        if (colided)
+        if (collided)
         {
             _enemyHealth.TakeDamage(damageCount);
             enabled = false;

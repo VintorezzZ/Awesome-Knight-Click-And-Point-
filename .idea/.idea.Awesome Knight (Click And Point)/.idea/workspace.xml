@@ -15,6 +15,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX Scripts/DestroyPointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX Scripts/DestroyAfterTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerAttackEffects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX Scripts/FireTornadoMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX Scripts/FireShield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX Scripts/HealScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX Scripts/SkillDamage.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,6 +35,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/SkillDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/FireTornadoMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerHealthScripts.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/FireShield.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FX Scripts/HealScript.cs" />
       </list>
     </option>
   </component>
@@ -76,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609930823861</updated>
       <workItem from="1609930828301" duration="7790000" />
-      <workItem from="1610011311635" duration="15633000" />
+      <workItem from="1610011311635" duration="18941000" />
     </task>
     <servers />
   </component>
