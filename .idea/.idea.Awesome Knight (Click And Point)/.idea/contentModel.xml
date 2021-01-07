@@ -9,6 +9,9 @@
             <e p="CameraFollow.cs" t="Include" />
             <e p="MouseScript.cs" t="Include" />
           </e>
+          <e p="EnemyScripts" t="Include">
+            <e p="EnemyController.cs" t="Include" />
+          </e>
           <e p="FX Scripts" t="Include">
             <e p="DestroyAfterTime.cs" t="Include" />
             <e p="DestroyPointer.cs" t="Include" />
